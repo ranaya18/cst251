@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 </head>
 <body>
+	<main>
 		<h1> Raeann Anaya</h1>
 		<p> Hello, my name is Raeann Anaya. I am 21 years old, I was born in Grand
 			Junction, Colorado but grew up in Merced. I am a movie buff, I could sit
@@ -14,16 +15,17 @@
 			extremely difficult, I have been playing it for as long as I can remember.
 			Fun fact, I actully won the Dominoes tournament at CSUMB. I also have an
 			Associates Degree in Studio Art and in Art History. </p>
+<!--	<img src="img/myphoto.jpg" width="150">-->
 			<p>  </p>
 			<ul>
 
-				<li><a href="img/helloworld.html">Lab 2: Your First HTML </a></li>
-				<li><a href="img/index.html" target="_self">Lab 3: File Structure </a></li>
+				<li><a href="lab2/helloworld.html">Lab2: Your First HTML</a></li>
+				<li><a href="lab3/">Lab 3: File Structure</a></li>
+				<h2>Challenges</h2>
 				<li><a href="lab 4/">Lab 4: File Transfer</a></li>
 				<li><a href="lab 5">Lab 5: </a></li>
 				<li><a href="lab 6">Lab 6: </a></li>
 		 </ul>
-		 <img src="img/myphoto.jpg" width="350">
 
 		<p></p>
 	</main>
