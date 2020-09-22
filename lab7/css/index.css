@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgreen;
+    background-color: darkgray;
     padding: 25px;
     font-size: 120%;
 }
@@ -12,7 +12,7 @@ div#content {
     height: 80vh;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
 
@@ -24,7 +24,7 @@ img {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: maroon;
 }
 a:hover {
     text-decoration: underline;
