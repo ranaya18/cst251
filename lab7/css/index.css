@@ -1,18 +1,22 @@
 body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
+    font-family: Courier, monospace "Lucida Console";
+    background-color: maroon;
     padding: 25px;
     font-size: 120%;
+    font-style: oblique
 }
 
 div#content {
-    padding: 50px;
-    background-color: lightgray;
-    border: solid 1px #333333;
+    padding: 8px;
+    background-color: lightblue;
+    border: double 30px yellow;
+    outline-style: solid;
+    outline-color: invert;
     height: 80vh;
+
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "Courier New", monospace;
 }
 
@@ -22,11 +26,19 @@ img {
     height: auto;
 }
 
-a {
-    text-decoration: none;
-    color: maroon;
+a:link{
+    background-color: yellow;
 }
+
+a:visited {
+  background-color: cyan;
+}
+
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    background-color: lightgreen;
+}
+
+a:active {
+  background-color: hotpink;
 }
