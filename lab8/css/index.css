@@ -1,0 +1,45 @@
+body {
+    font-family: Courier, monospace "Lucida Console";
+    background-color: olive;
+    padding: 25px;
+    font-size: 120%;
+    font-style: oblique
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightgrey;
+    border: dotted 10px grey;
+    outline-style: solid;
+    outline-color: invert;
+    height: 80vh;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 280px;
+    height: auto;
+
+}
+
+a:link{
+    background-color: yellow;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+a:active {
+  background-color: hotpink;
+}
