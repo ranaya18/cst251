@@ -1,0 +1,32 @@
+body {
+    font-family: Courier, monospace "Lucida Console";
+    background-color: tan;
+    padding: 25px;
+    font-size: 120%;
+    font-style: oblique
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightgrey;
+    border: ridge 25px cyan;
+    outline-style: solid;
+    outline-color: invert;
+    height: 80vh;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 750px;
+    height: 700px;
+
+}
+
+a:link{
+    background-color: White;
+}
