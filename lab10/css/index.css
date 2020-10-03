@@ -1,0 +1,44 @@
+body {
+    font-family: "Amatic SC";
+    background-color: black;
+    padding: 25px;
+    font-size: 22px;
+    font-style:
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightgrey;
+    border: ridge 25px cyan;
+    outline-style: solid;
+    outline-color: invert;
+    height: 80vh;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: "Amatic SC";
+}
+
+img {
+    float: right;
+    width: 550px;
+    height: 738px;
+}
+
+a:link{
+    background-color: auto;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+a:active {
+  background-color: hotpink;
+}
