@@ -1,0 +1,52 @@
+body {
+    font-family: "Monoton";
+    background-color: #70998D;
+    padding: 25px;
+    font-size: 22px;
+}
+
+aside {
+  width:300px;
+  max-width: 300px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: darkgray;
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightgrey;
+    border: dashed 15px #837099;
+    outline-style: solid;
+    outline-color: invert;
+    height: 80vh;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Monoton";
+}
+
+img {
+    float: right;
+    width: 550px;
+    height: 738px;
+}
+
+a:link{
+    background-color: auto;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #837A99;
+}
+
+a:active {
+  background-color: Cyan;
+}
