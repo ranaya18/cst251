@@ -1,0 +1,50 @@
+iframe#fake {
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
+  border: none;
+  float: right;
+}
+
+img {
+  width: 790px;
+  height: 480px;
+}
+
+#container{
+  width: 800px;
+  height: 500px;
+  position: relative;
+  text-align: center;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-family: "Pattaya" ;
+  color: #66eefa;
+}
+
+.caption {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -30%);
+  color: red;
+  font-family: "Work Sans";
+}
+
+#rcorners1 {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  transform: translate(-50%; -50%);
+  border-radius: 25px;
+  border:solid 5px #fd5759;
+  background-color: #fd5759;
+  color: #5b465c;
+ font-family: "Work Sans";
+}
