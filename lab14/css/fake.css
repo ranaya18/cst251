@@ -1,3 +1,7 @@
+body {
+    font-family: "DM Sans";
+}
+
 iframe#fake {
   width: 800px;
   height: 500px;
@@ -8,43 +12,129 @@ iframe#fake {
 }
 
 img {
-  width: 790px;
-  height: 480px;
-}
-
-#container{
   width: 800px;
   height: 500px;
-  position: relative;
-  text-align: center;
+  resize: both;
+  overflow: hidden;
+  position: ;
 }
 
-.centered{
+.hello {
   position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  font-family: "Pattaya" ;
-  color: #66eefa;
-}
-
-.caption {
-  position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 25%;
+  left: 60%;
   transform: translate(-60%, -30%);
-  color: red;
-  font-family: "Work Sans";
+  color: #65bfa6;
+  font-family: "DM Sans";
+  font-size: 80px;
+}
+
+.hello p{
+  font-family: "DM Sans";
+  font-style: bold;
+}
+
+.center p {
+  font-size: 20px;
+  font-style: bold;
+  font-family: "Roboto";
+}
+
+.right{
+  position: absolute;
+  top: 12%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto";
+  color: black;
+}
+
+.right h1 {
+  top: 45%;
+  left: 65%;
+  transform: translate(-200%, -0.3%);
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.right h2 {
+  top: 40%;
+  left: 90%;
+  transform: translate(-1%, -10%);
+  font-size: 12px;
+}
+
+.left {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto";
+  color: black;
+}
+
+.left h1{
+  top: 40%;
+  left: 90%;
+  transform: translate(-450%, -10%);
+  font-size: 12px;
+}
+
+.left h2{
+  top: 45%;
+  left: 90%;
+  transform: translate(-150%, -10%);
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.left h3{
+  top: 45%;
+  left: 100%;
+  transform: translate(-0.1%, -0.3%);
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.center {
+  position: absolute;
+  top: 69%;
+  left: 60%;
+  transform: translate(-60%, -30%);
+  color: grey;
+  font-family: "Roboto";
+}
+
+.center h1 {
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -100%);
+  color: #a7abb0;
+  font family: "Roboto";
+  font-size: 20px;
+}
+
+.center h2 {
+  top: 60%;
+  left: 45%;
+  transform: translate(-15%, -0.1%);
+  color: #a7abb0;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.caption figcaption {
+  font-size: 13px;
 }
 
 #rcorners1 {
   position: absolute;
-  top: 70%;
-  left: 45%;
+  top: 78%;
+  left: 48%;
   transform: translate(-50%; -50%);
   border-radius: 25px;
-  border:solid 5px #fd5759;
-  background-color: #fd5759;
-  color: #5b465c;
- font-family: "Work Sans";
+  border:solid 5px #30bbf2;
+  background-color: #30bbf2;
+  color: white;
+ font-family: "Roboto";
+ font-size: 10px;
 }

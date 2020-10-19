@@ -1,5 +1,5 @@
 body {
-    font-family: "Mate SC";
+    font-family: "Montserrat Subrayada";
     background-color: #B1E6D8;
     padding: 25px;
     font-size: 22px;
@@ -24,15 +24,32 @@ div#content {
     height: 80vh;
 }
 
+iframe#fake, .screenshot {
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
+  border: none;
+  margin: 20px;
+}
+
+iframe#fake {
+  width: 800px;
+  height: 500px;
+  resize: both;
+  overflow: hidden;
+  border: none;
+  margin: 20px;
+}
+
 h1, h2, h3, h4 {
-    font-family: "Mate SC";
+    font-family: "Montserrat Subrayada";
 }
 
 img {
     float: right;
     width: 250px;
     height: 250px;
-    border: solid 1px black;
     clear: right;
     display: block;
     margin-left: auto;
@@ -40,16 +57,16 @@ img {
 }
 
 a:link{
-    background-color: auto;
+    background-color: black;
 }
 
 a:visited {
-  background-color: lightgreen;
+  background-color: lightblue;
 }
 
 a:hover {
     text-decoration: underline;
-    background-color: ;
+    background-color: hotpink;
 }
 
 a:active {
