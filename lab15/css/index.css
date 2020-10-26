@@ -1,0 +1,50 @@
+body {
+    font-family: "Amatic SC";
+    background-color: grey;
+    padding: 25px;
+    font-size: 22px;
+    font-style:
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightblue;
+    background-image: linear-gradient(lightblue, lightgreen);
+    border: ridge 25px cyan;
+    outline-color: invert;
+    height: 80vh;
+    box-shadow: 3px 3px 5px black;
+}
+
+}
+h1, h2, h3, h4 {
+    font-family: "Amatic SC";
+    text-shadow: 0 0 5px black;
+}
+
+img {
+    float: right;
+    width: 700px;
+    height: 500px;
+    filter: grayscale(100%);
+    border-radius: 10%;
+    object-fit: fill;
+    transform: rotateX(150deg);
+}
+
+a:link{
+    background-color: auto;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+a:active {
+  background-color: hotpink;
+}
