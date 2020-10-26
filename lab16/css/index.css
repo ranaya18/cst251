@@ -1,0 +1,67 @@
+body {
+    font-family: "Henny Penny";
+    background-color: black;
+    padding: 25px;
+    font-size: 22px;
+    font-style:
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightyellow;
+    background-image: linear-gradient(lightyellow, purple);
+    border: ridge 25px white;
+    outline-color: invert;
+    height: 80vh;
+    box-shadow: 3px 3px 5px black;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    animation: all 5s infinite;
+}
+
+}
+h1, h2, h3, h4 {
+    font-family: "Henny Penny";
+    text-shadow: 0 0 5px black;
+    animation-timing-function: ease-out;
+}
+
+@keyframes all {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+img {
+    float: right;
+    width: 800px;
+    height: 500px;
+    transition: all 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.newspaper {
+  column-count: 3;
+  position: relative;
+}
+
+img:hover {
+  width: 300px;
+  height: 300px;
+}
+
+a:link{
+    background-color: auto;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: white;
+}
+
+a:active {
+  background-color: hotpink;
+}
