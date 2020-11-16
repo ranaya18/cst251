@@ -1,0 +1,47 @@
+body {
+    font-family: "Cinzel";
+    background-color: #3B6480;
+    padding: 25px;
+    font-size: 22px;
+    font-style:
+}
+
+div#content {
+    padding: 8px;
+    background-color: lightgrey;
+    border: ridge 25px #88BFB5;
+    outline-style: solid;
+    outline-color: invert;
+    height: 80vh;
+}
+
+.content {
+  height: 150vh;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Cinzel";
+}
+
+img {
+    width: 550px;
+    height: 500px;
+}
+
+a:link{
+  text-decoration: none;
+  background-color: auto;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+    text-decoration: wavy;
+    background-color: cyan;
+}
+
+a:active {
+  background-color: hotpink;
+}
