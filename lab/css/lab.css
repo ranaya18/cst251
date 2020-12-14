@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DM+Serif+Display&family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:	#FFEEE6;
+    font-size: 18px;
+}
+
+p {
+    color: #754944;
+    line-height: 1.6;
+}
+
+h1 {
+  color: #626C36;
+  font-family:'DM Serif Display', serif;
+  text-align: center;
+  font-size: 120px;
+  margin: 50px;
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    color: #754944;
+    font-size: 50px;
+}
+
+
+img {
+  max-width: 500px;
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+}
+
+a{
+  font-family: 'Caveat', cursive;
+  text-decoration: none;
+}
+
+
+.links {
+  background-color:	white;
+  overflow: hidden;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+
+.links a {
+  font-family: 'Caveat', cursive;
+  color: #754944;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+
+.links a:hover {
+  background-color:	#ccffae;
+  color: #626C36;
+}
+
+
+.links a.active {
+  background-color: white;
+  color: #754944;
+  text-decoration: none;
+}
+
+div#heading {
+    display: block;
+  }
+
+  div#content {
+      background-color: #FFEEE6;
+      position: absolute;
+      display: inline-block;
+      padding: 50px;
+  }
+
+div#body {
+  margin-top: 150px;
+}
+
+div#image1 {
+  display: inline-block;
+  float: right;
+}
